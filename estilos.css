@@ -1,6 +1,6 @@
 body
-{   background: black;
-    color: #333;
+{   background: white;
+    color: black;
     text-align: center;
     font-family: "Arial";
     font-size: 16px;
@@ -9,11 +9,11 @@ body
 }
 #cabecera 
 {
-    background: url("../imagenes/dragon.png") 10px 10px;
+    background: rgb(197, 7, 7) url("../imagenes/dragon.png") 10px 10px;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
-    color: white;
+    color: black;
     font-weight: bold;
-    margin: 0;
+    margin: 0em;
     padding: 0.5em 0 0.5em 2em;
 }
 #cabecera #logo
@@ -34,6 +34,7 @@ body
     text-align: left;
     border: 1px solid rgba(212, 203, 203, 0.976);
     margin: 0 auto;
+    background: white;
 }
 #container h1
 {
@@ -41,7 +42,8 @@ body
 }
 #post 
 {
-   padding: 0.5em;
+  padding: 0.5em;
+  background: white;
 }
 #footer
 {
